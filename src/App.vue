@@ -1,8 +1,13 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">main</router-link> |
+      <router-link to="/productManagement">상품관리</router-link> |
+      <router-link to="/reservationManagement">예약관리</router-link> |
+      <router-link to="/reservationSet">예약설정</router-link> |
+      <router-link to="/customerManagement">고객관리</router-link> |
+      <router-link to="/statisticsBoard">통계보고서</router-link> |
+      <router-link to="/authority">권한관리</router-link>
     </div>
     <router-view />
   </div>
